@@ -29,39 +29,41 @@ nav{
      
   }
   
-#first img{
+main > section img{
     clear: both;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
       }
+      
 article img{
     clear: both;
     display: block;
     margin-left: auto;
     margin-right: auto;   
       }
-#second{
+main section:nth-child(2){
     margin-left: 265px;
     }
 
-.column{
+main section article{
 float: left;
 padding:15px;
 margin-top: 15px;
 margin-bottom: 15px;
   }
 
-#third img{
+main div img{
     margin-left: 280px;
     margin-bottom: 30px;
   }
-  #third{
+  main div{
     display: inline-block;
     width:450 ;
   }
-#thewriting{
+  
+main > div article{
     clear: both;
     height: 400px;
     max-width: 450px;
@@ -76,7 +78,7 @@ footer{
     width: 100%;
     border-style :outset ;
   }
-  #thewriting h3{
+  article h3{
     font-weight: bold;
     margin-bottom: 10px;
 }
